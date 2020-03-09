@@ -1,0 +1,26 @@
+{
+    "name": "fsyd88/yii2-storage",
+    "description": "uploading extension for Yii2",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability":"stable",
+    "version":"1.0.2",
+    "authors": [
+        {
+            "name": "zhao",
+            "email": "zhao@vip.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.5",
+        "qiniu/php-sdk": "^7.2.10",
+        "aliyuncs/oss-sdk-php": "^2.3.0",
+        "qcloud/cos-sdk-v5": "~2.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "fsyd88\\storage\\": "src/"
+        }
+    }
+}
