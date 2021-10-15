@@ -12,10 +12,10 @@
     ],
     "require": {
         "php": ">=5.6.0",
-        "yiisoft/yii2": "~2.0.5",
-        "qiniu/php-sdk": "^7.4",
-        "aliyuncs/oss-sdk-php": "^2.4",
-        "qcloud/cos-sdk-v5": "^2.3"
+        "yiisoft/yii2": "^2.*",
+        "qiniu/php-sdk": "^7.*",
+        "aliyuncs/oss-sdk-php": "^2.*",
+        "qcloud/cos-sdk-v5": "^2.*"
     },
     "autoload": {
         "psr-4": {
